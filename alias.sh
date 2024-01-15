@@ -19,4 +19,4 @@ alias py='python3'
 alias pym="python3 -m http.server"
 
 # prog dir
-alias pro"cd $HOME/prog"
+alias pro="cd $HOME/prog"
