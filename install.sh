@@ -15,5 +15,8 @@ cp ./profile.sh ~/.bash_profile
 #git
 cp .gitconfig ~/.gitconfig
 
+cp -r ./i3 ~/.config
+cp ./i3status.conf ~/.i3status.conf
+
 # back to initial dir
 cd $__PWD
