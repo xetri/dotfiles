@@ -1,14 +1,14 @@
 [user]
-	name = Avrel
+	name = Avinash
 	email = 106798140+xetri@users.noreply.github.com
 [init]
 	defaultBranch = master
 [credential]
 	helper = store
 [alias]
+	c = commit
 	co = checkout
 	br = branch
-	ci = commit
-	cm = commit -m
 	pu = push
 	pl = pull
+	l1= log --oneline

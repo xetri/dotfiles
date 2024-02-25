@@ -56,7 +56,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# custom paths
+if [ -d "$HOME/opt/bin" ]; then
+    PATH="$PATH:$HOME/opt/bin"
+fi
+
 if [ -f ~/.exports ]; then
     . ~/.exports
 fi

@@ -1,22 +1,22 @@
 #! /usr/bin/bash
 
-# save current dir
-__PWD=$(pwd)
+DIR="$(dirname $0)"
 
-# change dir ~ if install.sh is executed else error occurs
-cd $(dirname $0)
+ln -s $DIR/.bashrc $HOME/.bashrc
+ln -s $DIR/.bash_aliases $HOME/.bash_aliases
+ln -s $DIR/bash_logout $HOME/.bash_logout
+ln -s $DIR/.bash_profile $HOME/.bash_profile
 
-#bash files
-cp ./init.sh ~/.bashrc
-cp ./alias.sh ~/.bash_aliases
-cp ./logout.sh ~/.bash_logout
-cp ./profile.sh ~/.bash_profile
+ln -s $DIR/.gitconfig $HOME/.gitconfig
 
-#git
-cp .gitconfig ~/.gitconfig
+if [ ! -d $HOME/.config/i3 ]; then
+    mkdir $HOME/.config/i3
+fi
+if [ -f $HOME/.config/i3/config ]; then
+    rm $HOME/.config/i3/config
+fi
+ln -s $DIR/i3/config $HOME/.config/i3/config
 
-cp -r ./i3 ~/.config
-cp ./i3status.conf ~/.i3status.conf
+ln -s $DIR/.i3status.conf $HOME/.i3status.conf
 
-# back to initial dir
-cd $__PWD
+ln -s $DIR/.vimrc $HOME/.vimrc

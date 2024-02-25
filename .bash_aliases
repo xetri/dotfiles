@@ -13,10 +13,17 @@ alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
 
+alias q="exit"
 alias md="mkdir"
+
+alias shut="sudo shutdown -P now"
+alias reb="sudo reboot -P now"
 
 alias py='python3'
 alias pym="python3 -m http.server"
+alias nf="neofetch"
+alias nv="nvim"
+alias pd="podman"
 
-# prog dir
-alias pro="cd $HOME/prog"
+alias me="cd $HOME/me"
+alias pro="cd $HOME/me/prog"
