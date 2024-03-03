@@ -15,6 +15,7 @@ alias l='ls -CF'
 
 alias q="exit"
 alias md="mkdir"
+alias clr="clear"
 
 alias shut="sudo shutdown -P now"
 alias reb="sudo reboot -P now"
