@@ -1,7 +1,10 @@
-set nocompatible
 filetype on
 filetype plugin on
 filetype indent on
+colorscheme evening
+
+set nocompatible
+set syntax=true
 
 set number
 set relativenumber
@@ -17,7 +20,7 @@ set smartcase
 set showcmd
 set showmode
 set showmatch
-set hlsearch
+set nohlsearch
 set history=1000
 
 set nobackup
@@ -26,3 +29,4 @@ set wildmode=list:longest
 
 set nobackup
 set noswapfile
+

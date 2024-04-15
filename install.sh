@@ -18,3 +18,5 @@ ln -s $DIR/.i3status.conf $HOME/.i3status.conf
 
 ln -s $DIR/.vimrc $HOME/.vimrc
 ln -s $DIR/.tmux.conf $HOME/.tmux.conf
+
+ln -s $DIR/.emacs $HOME/.emacs
