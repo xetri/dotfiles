@@ -4,7 +4,7 @@ DIR="$(dirname $0)"
 
 ln -s $DIR/.bashrc $HOME/.bashrc
 ln -s $DIR/.bash_aliases $HOME/.bash_aliases
-ln -s $DIR/bash_logout $HOME/.bash_logout
+ln -s $DIR/.bash_logout $HOME/.bash_logout
 ln -s $DIR/.bash_profile $HOME/.bash_profile
 
 ln -s $DIR/.gitconfig $HOME/.gitconfig

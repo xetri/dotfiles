@@ -18,13 +18,13 @@ alias md="mkdir"
 alias clr="clear"
 
 alias shut="sudo shutdown -P now"
-alias reb="sudo reboot -P now"
 
 alias py='python3'
 alias pym="python3 -m http.server"
 alias nf="neofetch"
 alias nv="nvim"
 alias pd="podman"
+alias nrok="ngrok http --url=deer-adapting-ghoul.ngrok-free.app"
 
 alias me="cd $HOME/me"
 alias pro="cd $HOME/me/prog"

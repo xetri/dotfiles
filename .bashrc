@@ -59,10 +59,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-if [ -d "$HOME/opt/bin" ]; then
-    PATH="$PATH:$HOME/opt/bin"
-fi
-
 if [ -f ~/.exports ]; then
     . ~/.exports
+fi
+
+if [ -d ~/.local/bin ]; then
+    PATH="$PATH:$HOME/.local/bin"
 fi
